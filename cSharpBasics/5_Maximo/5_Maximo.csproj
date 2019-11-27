@@ -7,7 +7,7 @@
     <ProjectGuid>{E770ADD9-FA3D-424C-84D0-F6E700B7D8D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_5_Maximo</RootNamespace>
-    <AssemblyName>_5_Maximo</AssemblyName>
+    <AssemblyName>5_Maximo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

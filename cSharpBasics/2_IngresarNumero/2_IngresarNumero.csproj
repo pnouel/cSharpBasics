@@ -7,7 +7,7 @@
     <ProjectGuid>{7A5FF312-246E-4025-A0EF-182F603ECB35}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_2_IngresarNumero</RootNamespace>
-    <AssemblyName>_2_IngresarNumero</AssemblyName>
+    <AssemblyName>2_IngresarNumero</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
