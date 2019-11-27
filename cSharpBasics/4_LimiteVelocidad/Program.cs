@@ -20,6 +20,24 @@ namespace _4_LimiteVelocidad
              1 demerit points should be incurred and displayed on the console. If the number of demerit points 
              is above 12, the program should display License Suspended.
              */
+
+            Console.WriteLine("Ingrese limite de velocidad: ");
+            var speedLimit = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese  velocidad del auto: ");
+            var speed = Convert.ToInt32(Console.ReadLine());
+           
+            if (speedLimit > speed)
+            {
+                Console.WriteLine("OK");
+            }
+            else
+            {
+                const int demeritosPorKMS = 5;
+                var speedDif = (speed - speedLimit)/demeritosPorKMS;
+                var resultadoDemeritos = (speedDif > 12) ? "LICENCIA CANCELADA" : "Se Suman " + speedDif + " Demeritos ";
+                Console.WriteLine(resultadoDemeritos);
+            }
+
         }
     }
 }
